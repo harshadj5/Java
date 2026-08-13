@@ -11,7 +11,7 @@ public class Car {
     public static void main(String[] args) {
         Car c = new Car();
         System.out.println("Car Name:"+ c.name);
-        System.out.println("Car Price:"+ price);
+        System.out.println("Car Price:"+ c.price);
     }
     
 }
