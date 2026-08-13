@@ -1,3 +1,4 @@
+// Parameterized constructor
 public class student{
     String name;
     int rollno;
