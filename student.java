@@ -9,8 +9,8 @@ public class student{
         System.out.println("Name:"+name);
         System.out.println("Roll no:"+rollno);
     }
-}
 public static void main(String[]args){
     student s1 = new student("Amit",12);
     s1.display();
+}
 }
