@@ -12,7 +12,7 @@ public class Student{
         return name;
     }
 }
-public class Main{
+public class Encapsulation{
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.setName("Rajendra");
