@@ -1,10 +1,10 @@
 package Java.OOP;
-public class Student{
+  class Student{
     private String name;
 
     // seter method
-    public void setName(String name;){
-        this.name=name;
+    public void setName(String name){
+        this.name = name;
     }
 
     //geter method
