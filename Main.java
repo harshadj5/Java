@@ -1,9 +1,10 @@
-public class Student{
+package Java.OOP;
+class Student{
     private String name;
 
     // seter method
-    public void setName(String name;){
-        this.name=name;
+    public void setName(String name){
+        this.name = name;
     }
 
     //geter method
@@ -11,10 +12,10 @@ public class Student{
         return name;
     }
 }
-public class Encapsulation{
+public class Main{
     public static void main(String[] args) {
         Student s1 = new Student();
-        s1.setName("Rajendra");
+        s1.setName("Raj");
         System.out.println(s1.getName());
     }
 }
